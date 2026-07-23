@@ -1,0 +1,31 @@
+generated: '2026-07-18'
+method: searched
+source: https://audiomob.com/blog
+notes: >-
+  Audiomob does not publish a single structured dated changelog on its public site;
+  SDK releases are announced as dated blog posts and full release notes live behind
+  the login-gated developer dashboard (https://developer.audiomob.com/). The entries
+  below are the recent publicly-announced SDK releases. "SDK" here is the Audiomob
+  mobile advertising SDK (Unity plugin + native iOS/Android), whose current major
+  line is SDK 10.
+scheme: major-version
+current_version: 'SDK 10'
+entries:
+  - version: 'SDK 10'
+    date: '2025-11-13'
+    breaking: unknown
+    source: https://audiomob.io/blog/audiomob-sdk-10-has-arrived
+    highlights:
+      - Impression Level Revenue Data (ILRD) for real-time per-impression revenue
+      - Background ad preloading and caching to reduce latency and improve fill rates
+      - Ad Units for multiple individually-tracked ad placements
+      - Automatic CMP consent detection passed to advertisers and exchange partners
+      - Webhooks / server-to-server tracking for completed listens and rewarded engagements
+      - Open Measurement (IAB Tech Lab) SDK certification
+      - Ad muting on standard ads
+  - version: 'Unity Plugin 4.0'
+    date: null
+    breaking: unknown
+    source: https://audiomob.com/blog/The%20AudioMob%20Unity%20Plugin%204point0%20is%20here
+    highlights:
+      - Major release of the Audiomob Unity plugin (single-prefab integration)

@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/package/react-native-audiomob
+notes: >-
+  Audiomob's first-party client libraries (the Unity plugin and native iOS/Android
+  SDKs, current major version "SDK 10") are distributed through the login-gated
+  Audiomob developer dashboard (https://developer.audiomob.com/), not through public
+  package registries. No first-party Audiomob package was found on npm, PyPI, Maven
+  Central, NuGet, RubyGems, Packagist, or crates.io as of this run. The one public
+  registry package below is a community-maintained React Native adapter, not an
+  official Audiomob release.
+packages:
+  - language: javascript
+    registry: npm
+    name: react-native-audiomob
+    url: https://www.npmjs.com/package/react-native-audiomob
+    install: npm install react-native-audiomob
+    version: 0.2.8
+    license: MIT
+    publisher: Spicy Sparks (spicy_sparks)
+    repository: https://github.com/Spicy-Sparks/react-native-audiomob
+    description: Audiomob ads adapter for React Native
+    official: false

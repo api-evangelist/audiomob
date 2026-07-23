@@ -1,9 +1,31 @@
 aid: audiomob
 name: Audiomob
-description: Audiomob is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Audiomob is an in-game and in-app audio advertising platform that lets mobile game
+  and app publishers monetize their titles with non-interruptive, skippable and
+  rewarded audio ads while advertisers reach engaged gaming audiences at scale.
+  Publishers integrate through the Audiomob Unity plugin or native iOS and Android
+  SDKs (plus a community React Native adapter), add their games to the Audiomob
+  developer dashboard, and configure ad units, an Ad Availability API, and
+  server-to-server webhooks for reward and event tracking. The platform is Open
+  Measurement (IAB Tech Lab) compliant, supports consent management via OneTrust and
+  Sourcepoint, exposes Impression Level Revenue Data (ILRD), and integrates with
+  mediation partners such as AdMob and LevelPlay (MAX) and mobile measurement
+  partners including Adjust, Singular and Tenjin. The current SDK line is SDK 10.
+  Audiomob is backed by Lightspeed Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/audiomob/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://audiomob.com/images/logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +34,53 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
-- Company
+- Advertising
+- Audio
+- Gaming
+- Monetization
+- Mobile
+- SDK
+- Ad Tech
+- In-Game Ads
+- Rewarded Ads
+- Webhooks
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/audiomob-domain-security.yml
+- type: Website
+  url: https://audiomob.com/
+- type: DeveloperPortal
+  url: https://developer.audiomob.com/
+- type: Documentation
+  url: https://audiomob.com/developers
+- type: Integrations
+  url: https://audiomob.com/integrations
+- type: SignUp
+  url: https://developer.audiomob.com/
+- type: Blog
+  url: https://audiomob.com/blog
+- type: Support
+  url: https://audiomob.com/contact
+- type: GitHubOrganization
+  url: https://github.com/AudioMob
+- type: PrivacyPolicy
+  url: https://audiomob.com/privacy-policy
+- type: TermsOfService
+  url: https://audiomob.com/terms
+- type: Packages
+  url: packages/audiomob-packages.yml
+- type: ChangeLog
+  url: changelog/audiomob-changelog.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
