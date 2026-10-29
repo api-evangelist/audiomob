@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Audiomob is a company surfaced as a portfolio company of lightspeed-venture-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Audiomob is an in-game and in-app audio advertising platform that lets mobile game and app publishers monetize their titles with non-interruptive, skippable and rewarded audio ads while advertisers reach engaged gaming audiences at scale. Publishers integrate through the Audiomob Unity plugin or native iOS and Android SDKs (plus a community React Native adapter), add their games to the Audiomob developer dashboard, and configure ad units, an Ad Availability API, and server-to-server webhooks for reward and event tracking. The platform is Open Measurement (IAB Tech Lab) compliant, supports consent management via OneTrust and Sourcepoint, exposes Impression Level Revenue Data (ILRD), and integrates with mediation partners such as AdMob and LevelPlay (MAX) and mobile measurement partners including Adjust, Singular and Tenjin. The current SDK line is SDK 10. Audiomob is backed by Lightspeed Venture Partners.
 
-Backed by: lightspeed-venture-partners
+**Areas:** Advertising · Audio · Gaming · Monetization · Mobile · SDK · AdTech · In-Game Ads · Rewarded Ads · Webhook
+
+## Audiomob on APIs.io
+
+Everything profiled for Audiomob is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/audiomob/](https://apis.io/providers/audiomob/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Audiomob Domain Security](https://apis.io/security/audiomob/audiomob-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://audiomob.com/)
+- [Documentation](https://audiomob.com/developers)
+- [Sign up](https://developer.audiomob.com/)
+- [Support](https://audiomob.com/contact)
+- [Blog](https://audiomob.com/blog)
+- [Terms of service](https://audiomob.com/terms)
+- [Privacy policy](https://audiomob.com/privacy-policy)
+- [GitHub](https://github.com/AudioMob)
+
+## API Evangelist rating
+
+**Kin Score 9.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/audiomob/](https://apis.io/providers/audiomob/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Audiomob: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/audiomob/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
